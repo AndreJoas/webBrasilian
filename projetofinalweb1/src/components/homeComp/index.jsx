@@ -18,19 +18,19 @@ function Homecomponets() {
                     <div className="menulat1 justify-content-center navbar navbar-expand-lg">
                         <div className="home">
                             <a className="icon" href="/Historia"><img className="casa" src={casa}></img></a>
-                            <h3 className="frase1">Historia</h3>
+                            <h3 className="frase3">Historia</h3>
                         </div>
                         <div className="home">
                             <a className="icon" href="/Entender" ><img className="flecha" src={flecha}></img></a>
-                            <h3 className="frase1">Saber +</h3>
+                            <h3 className="frase3">Saber +</h3>
                         </div>
                         <div className="home" >
                             <a className="icon" href="/Quiz"><img className="dowm" src={download}></img></a>
-                            <h3 className="frase1" >Quiz</h3>
+                            <h3 className="frase2" >Quiz</h3>
                         </div>
                         <div className="home">
                             <a className="icon" href="" ><img className="paper" src={paper}></img></a>
-                            <h3 className="frase1">Jogo</h3>
+                            <h3 className="frase2">Jogo</h3>
                         </div>
                         <div className="home">
                             <a className="icon" href="/Dados"><img className="wallet"src={wallet}></img></a>

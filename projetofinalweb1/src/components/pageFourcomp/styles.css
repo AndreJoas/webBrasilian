@@ -169,6 +169,7 @@
   justify-content: space-around;
   align-items: center; 
   max-width: max-content;
+  margin-top: -7rem;
 }
 .urnA{
   display: flex;

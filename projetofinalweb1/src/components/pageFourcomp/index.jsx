@@ -150,11 +150,8 @@ function Gamer() {
 
     return (
         <div>
+            <header className="barra1"><a className="navb1" href="/homePage"><button className="btao1">voltar Para Home</button></a></header>
             <body className="corpo">
-
-
-
-
                 <div className="caixa">
                     <div className="urnA">
                         <h1 className="texto">Justiça Eleitoral</h1>
@@ -163,11 +160,11 @@ function Gamer() {
                             <div class="container">
                                 <h2>Word Scramble</h2>
                                 <div class="content">
-                                  
+
                                     <div class="details">
                                         <div class="palavra">
                                             <p class="hint">Dica:<span></span></p>
-                                                    <p class="word"></p>
+                                            <p class="word"></p>
                                         </div>
                                         <p class="time">Tempo Restante: <span><b>30</b>s</span></p>
                                     </div>
