@@ -1,0 +1,402 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.backg {
+    max-width: 100%;
+    max-height: 100%;
+    color: rgb(3, 2, 2);
+    background: #dfd9f2;
+}
+
+.textos {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  
+}
+
+.d1 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 0.5rem;
+    min-width: 250px;
+}
+
+.titul1 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subt {
+    font-size: 1.9rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+.d2 {
+   
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 0.5rem;
+    min-width: 250px;
+}
+
+
+.principal1 {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 2rem;
+
+   
+}
+
+.q1 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+
+}
+
+.text1 {
+    display: flex;
+    width: 90%;
+    font-size: 1.2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+   
+}
+
+@media (max-width:890px) {
+    .q1 {
+        flex-wrap: wrap;
+    }
+
+    .q2 {
+        flex-wrap: wrap-reverse;
+    }
+
+    .q3 {
+        flex-wrap: wrap;
+    }
+
+    .q4 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:1230px){
+    .graphics{
+        flex-wrap: wrap;
+    }
+}
+.qf1 {
+    width: 100%;
+
+    max-width: max-content;
+ 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 600px;
+}
+
+.urna {
+    width: 100%;
+    max-height: 40rem;
+
+}
+
+
+.q2 {
+    padding: 1rem;
+    margin-top: 2.2rem;
+    width: 100%;
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.text0 {
+    display: flex;
+    width: 90%;
+    font-size: 1.3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    padding: 0.5rem;
+    max-width: max-content;
+   
+}
+
+#chart-container3 {
+    max-width: max-content;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 600px;
+   
+    
+}
+
+
+/*--------------------------*/
+
+.principal2 {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 2rem;
+   
+   
+
+}
+
+
+.q3 {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1.5rem;
+
+
+}
+
+.text2 {
+    display: flex;
+    width: 90%;
+    font-size: 1.3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    max-width: max-content;
+
+}
+
+.qf3 {
+    width: 100%;
+
+    max-width: max-content;
+  
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 600px;
+}
+
+.mh {
+    width: 100%;
+    max-height: 40rem;
+
+}
+
+
+.q4 {
+    margin-top: 0.6rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1.5rem;
+    padding: 2rem;
+
+
+}
+
+.text3 {
+    display: flex;
+    width: 79%;
+    font-size: 1.3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+   
+    max-width: max-content;
+}
+
+#chart-container2 {
+    width: 100%;
+    max-width: max-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 600px;
+}
+
+/*--------------------------------*/
+
+.principal3 {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 2rem;
+    gap: 1rem;
+}
+
+
+
+.q5 {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.text4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 550;
+    max-width: max-content;
+  
+}
+
+.text5 {
+    display: flex;
+    width: 100%;
+    font-size: 1.3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    max-width: max-content;
+}
+
+.graphics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+#chart-container4 {
+    max-width: max-content;
+    width: 100%;
+
+    max-width: max-content;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 600px;
+}
+
+#chart-container5 {
+    max-width: max-content;
+    width: 100%;
+
+    max-width: max-content;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 600px;
+}
+
+.barra{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.barra{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra2{
+    margin-top: -32rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navb{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    min-width: max-content;
+    text-decoration: none;
+    font-size: 1rem;
+    
+    
+}
+.navb1{
+    margin-top: -3rem;
+}
+.btao1{
+    width: 100%;
+    display: flex;
+    min-width: max-content;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: rgb(179, 117, 169);
+    color:#fff;
+    border: none;
+    outline: none;
+
+}

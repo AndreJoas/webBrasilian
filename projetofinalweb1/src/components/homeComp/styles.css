@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.sitee {
+    max-width: 100%;
+    max-height: 100%;
+    color: white;
+    background: #1F1D2B; 
+}
+.menulat1 {
+    display: flex;
+    /* border:solid red 1px; */
+    width: 100%;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+.home {
+    display: flex;
+    gap: 3rem;
+}
+
+.icon {
+    margin-top: 5%;
+    background: transparent;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+
+    transition: 0.6s;
+    border-radius: 0.8rem;
+   
+}
+
+.icon:hover {
+    background: orange;
+}
+
+.frase1 {
+    margin-top: 4%;
+    margin-left: -18%;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size:4vh;
+}
+.frase1:hover {
+    color: blueviolet;
+}
+
+.casa {
+    margin-top: 0.3rem;
+    margin-left: 0.35rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+.flecha {
+    margin-top: 0.3rem;
+    margin-left: 0.35rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+.dowm {
+    margin-top: 0.3rem;
+    margin-left: 0.35rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+.paper {
+    margin-top: 0.3rem;
+    margin-left: 0.35rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+.wallet {
+    margin-top: 0.3rem;
+    margin-left: 0.35rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+.skatem {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 0 2rem;
+    /* border: solid 1px rgb(153, 25, 232); */
+    flex-wrap: wrap;
+}
+@media (max-width:420px){
+   .texto1{
+    padding: 0 0 0 2.3rem;
+   }
+ }
+@media (max-width:480px){
+    .quad1{
+        padding: 2rem;
+        flex-direction: column;
+        }
+    .textoS1{
+     width: 100%;
+    }
+    .sumario{
+        width: 100%;
+    }
+ }
+@media (max-width:770px){
+    .quad1{
+    width: 90%;
+    }
+}
+@media (min-width:800px) and (max-width: 1200px){
+    .quad1{
+        flex-direction: column;
+    }
+}
+
+
+.titu1 {
+    transition: 0.7s;
+    cursor: pointer;
+    position: relative;
+    padding: 0 0 0 2rem;
+    /* border: solid red 1px; */
+}
+
+.titu1:hover {
+    color: #cbc9c9;
+}
+.dImg1{
+    max-width: max-content;
+    /* border: solid 1px rgb(121, 232, 25); */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 210px;
+}
+.img1{
+    width: 100%;
+    max-height: 20rem;
+}
+.quad1 {
+    /* background-image: url("GUIAelEIÇOES.jpg"); */
+    border-radius: 1rem;
+    width: 50%;
+    min-width: 473px;
+    /* border: solid 5px rgba(14, 81, 205, 0.41); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.texto1 {
+    font-family: 'Poppins';
+    color:rgb(222, 216, 216);
+    cursor: pointer;
+
+}
+
+.textoS1 {
+    /* border:solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    color:rgb(221, 220, 220);
+    cursor: pointer;
+    width: 50%;
+   
+}
+.texto1:hover {
+    color: rgb(252, 251, 251);
+}
+.textoS1:hover {
+    color: rgb(255, 255, 255);
+}
+.quad2 {
+    /* background: url(seLigaEleiçoes.jfif); */
+    margin-top: 1.4%;
+    border-radius: 1rem;
+    width: 20%;
+    min-width: 229px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid red 1px; */
+}
+
+.texto2 {
+    font-family: 'Poppins';
+    font-size: 2rem;
+    transition: 0.5s;
+    /* border:solid 1px red; */
+    cursor: pointer;
+}
+
+.texto2:hover {
+    color: #E85C5C;
+
+}
+
+.quarteto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.3rem;
+    max-width: 100%;
+    /* border: solid red 1px; */
+    margin-top: 2rem;
+    padding: 2rem;
+}
+.titu2 {
+    font-size: 2rem;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 5%;
+
+}
+.titu2:hover{
+    color:#E85C5C;
+}
+.quad3 {
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* border: solid red 1px; */
+    min-width: 258px;
+}
+.dImg3{
+    width: 100%;
+    max-height: 20rem;
+}
+.ft2{
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 16rem;
+}
+
+.quad4 {
+    /* margin-top: 1.4rem;*/
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* border: solid red 1px; */
+    min-width: 258px;
+}
+.titu4 {
+    font-size:2rem;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 35%;
+}
+.titu4:hover{
+    color:#E85C5C;
+}
+.dImg4{
+    width: 100%;
+    max-height: 20rem;
+}
+.ft3{
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 16rem;
+}
+
+.quad5 {
+    border-radius: 1rem;
+    display: flex;
+    /* border: solid red 1px; */
+    min-width: 296px;
+    flex-direction: column;
+}
+.titu5 {
+    font-size: 2rem;
+    position: absolute;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 3%;
+}
+.titu5:hover{
+    color:#E85C5C;
+}
+.dImg5{
+    width: 90%;
+    margin-left: 1rem;
+    height: 100%;
+}
+.botaoquiz{
+    background: #E85C5C;
+    border-radius: 0 0 1rem 1rem;
+    border: none;
+    width: 100%;
+    padding: 0.2rem;
+    margin-top: -200px;
+}
+/* .dImg1{
+    max-width: max-content;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.img1{
+    width: 100%;
+    max-height: 20rem;
+} */
+
+/*estilizar botao theme*/
+/*estilizar botao geame ON*/
