@@ -5,97 +5,33 @@ import "./styles.js";
 
 setTimeout(() => { //funçao "A cada A cada"
     let words = [
-        {
-            word: "addition",
-            hint: "The process of adding numbers"
+          {
+            word: "advocacia",
+            hint: "Área técnica que defende os interesses das pessoas"
         },
         {
-            word: "meeting",
-            hint: "Event in which people come together"
+            word: "direito",
+            hint: "Ciência que estuda as leis e como elas são aplicadas em situações do dia a dia"
         },
         {
-            word: "number",
-            hint: "Math symbol used for counting"
+            word: "justiça",
+            hint: "A virtude moral que rege o ser espiritual no combate ao egoísmo biológico, orgânico, do indivíduo"
         },
         {
-            word: "exchange",
-            hint: "The act of trading"
+            word: "juiz",
+            hint: "Cidadão investido de autoridade pública com o poder-dever para exercer a atividade jurisdicional"
         },
         {
-            word: "canvas",
-            hint: "Piece of fabric for oil painting"
+            word: "advogado",
+            hint: "Profissional liberal, graduado em Direito e autorizado pelas instituições competentes de cada país a exercer o jus postulandi"
         },
         {
-            word: "garden",
-            hint: "Space for planting flower and plant"
+            word: "cidadania",
+            hint: "Sujeito de direitos e deveres"
         },
         {
-            word: "position",
-            hint: "Location of someone or something"
-        },
-        {
-            word: "feather",
-            hint: "Hair like outer covering of bird"
-        },
-        {
-            word: "comfort",
-            hint: "A pleasant feeling of relaxation"
-        },
-        {
-            word: "tongue",
-            hint: "The muscular organ of mouth"
-        },
-        {
-            word: "expansion",
-            hint: "The process of increase or grow"
-        },
-        {
-            word: "country",
-            hint: "A politically identified region"
-        },
-        {
-            word: "group",
-            hint: "A number of objects or persons"
-        },
-        {
-            word: "taste",
-            hint: "Ability of tongue to detect flavour"
-        },
-        {
-            word: "store",
-            hint: "Large shop where goods are traded"
-        },
-        {
-            word: "field",
-            hint: "Area of land for farming activities"
-        },
-        {
-            word: "friend",
-            hint: "Person other than a family member"
-        },
-        {
-            word: "pocket",
-            hint: "A bag for carrying small items"
-        },
-        {
-            word: "needle",
-            hint: "A thin and sharp metal pin"
-        },
-        {
-            word: "expert",
-            hint: "Person with extensive knowledge"
-        },
-        {
-            word: "statement",
-            hint: "A declaration of something"
-        },
-        {
-            word: "second",
-            hint: "One-sixtieth of a minute"
-        },
-        {
-            word: "library",
-            hint: "Place containing collection of books"
+            word: "eleitor",
+            hint: "Pessoas que elegem um representante para um órgão decisor"
         },
     ]
     const wordText = document.querySelector(".word"),
@@ -158,7 +94,7 @@ function Gamer() {
 
                         <div className="Preta">
                             <div class="container">
-                                <h2>Word Scramble</h2>
+                                <h2>Mistura de Palavras</h2>
                                 <div class="content">
 
                                     <div class="details">
