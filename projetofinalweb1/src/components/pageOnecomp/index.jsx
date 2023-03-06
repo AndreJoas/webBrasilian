@@ -20,7 +20,7 @@ function Historia() {
                                         <div className="home1"><a href="#01">Eleições presidenciais no Brasil | </a></div>
                                         <div className="home1"><a href="#02">Primeiro presidente do brasil | </a></div>
                                         <div className="home1"><a href="/Historia2">Como funcionam as eleições no Brasil? |</a></div>
-                                        <div className="home1"><a href="#04">Historia das eleições no mundo |</a></div>
+                                        <div className="home1"><a href="/Historia2">Historia das eleições no mundo |</a></div>
                                 </nav>
                                 <div class="Principal">
                                         <div class="Q1">

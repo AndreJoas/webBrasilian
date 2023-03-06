@@ -7,7 +7,7 @@ export default function Index() {
         <div>
             <body className="fundo3">
 
-            <header className="barra1"><a className="navb1" href="/homePage"><button className="btao1">voltar Para Home</button></a></header>
+                <header className="barra1"><a className="navb1" href="/homePage"><button className="btao1">voltar Para Home</button></a></header>
                 
                 
                 <div className="Textos">
@@ -16,7 +16,7 @@ export default function Index() {
                     <div className="D2"><h2 className="Subt">Outros asssuntos sobre o senário</h2></div>
                 </div>
                 <nav className="navegadores justify-content-center navbar navbar-expand-lg">
-                    <div className="home1"><a href="#01">Eleições presidenciais no Brasil | </a></div>
+                    <div className="home1"><a href="/Historia">Eleições presidenciais no Brasil | </a></div>
                     <div className="home1"><a href="/Historia">Primeiro presidente do brasil | </a></div>
                     <div className="home1"><a href="/Historia2">Como funcionam as eleições no Brasil? |</a></div>
                     <div className="home1"><a href="#04">Historia das eleições no mundo |</a></div>

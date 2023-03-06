@@ -29,7 +29,7 @@ function Homecomponets() {
                             <h3 className="frase2" >Quiz</h3>
                         </div>
                         <div className="home">
-                            <a className="icon" href="" ><img className="paper" src={paper}></img></a>
+                            <a className="icon" href="/Jogo" ><img className="paper" src={paper}></img></a>
                             <h3 className="frase2">Jogo</h3>
                         </div>
                         <div className="home">
@@ -57,7 +57,7 @@ function Homecomponets() {
                         {/* style="cursor:pointer" */}
                         <div className="quad2">
                             
-                            <h2 className="texto2" >Enterder Mais</h2>
+                            <h2 className="texto2" >Saiba Mais</h2>
                             <a href="/Entender"><div className="dImg2"><img className="img2" src={entender}></img></div></a>
                         </div>
                     </div>

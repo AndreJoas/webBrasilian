@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes,Route } from "react-router-dom";
-import { Home, Quiz, Entender,Jogo,History,Dados,HistoriaPt2} from "../pages/index";
+import { Home, Quiz, Entender,Jogo,History,Dados,HistoriaPt2,Saber2} from "../pages/index";
 
 export default  function Index(){
     return(
@@ -13,6 +13,8 @@ export default  function Index(){
                 <Route path="Dados" element={<Dados/>}/>
                 <Route path="Entender" element={<Entender/>}/>
                 <Route path="Historia2" element={<HistoriaPt2/>}/> 
+                <Route path="SaberEntender2" element={<Saber2/>}/> 
+
       </Routes>
     );
 }

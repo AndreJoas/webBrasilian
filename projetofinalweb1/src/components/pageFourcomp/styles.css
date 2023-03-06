@@ -345,21 +345,23 @@
 }
 .m{
   margin-left: 3rem;
+  box-shadow: 0px 3px 10px 2px rgb(252, 233, 233);
 }
-.red{
+.del{
   box-shadow: 0px 3px 10px 2px rgb(247, 2, 2);
 }
 .yellow{
   box-shadow: 0px 3px 10px 2px rgb(210, 247, 2);
 }
-.gren{
+.enter{
   box-shadow: 0px 3px 10px 2px rgb(106, 240, 17);
 }
-.blue{
-  box-shadow: 0px 3px 10px 2px rgb(2, 247, 206);
+.zero0{
+  box-shadow: 0px 3px 10px 2px rgb(217, 229, 227);
 }
 .roxo{
   box-shadow: 0px 3px 10px 2px rgb(160, 11, 230);
 }
+
 
 
